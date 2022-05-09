@@ -1,0 +1,50 @@
+.formAspirant {
+  display: grid;
+  place-content: center;
+  min-width: 100vw;
+  font-size: 1.2em;
+}
+
+form {
+  border: 2px solid #219ebc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* margin: auto; */
+  width: fit-content;
+  align-items: center;
+  padding: 1em;
+  border-radius: 1em;
+  color: #023047;
+}
+
+input {
+  min-width: 200px;
+  margin: 1em;
+  color: #023047;
+  box-sizing: border-box;
+  height: max-content;
+}
+
+.submitButton {
+  grid-column: 1 / span 2;
+  color: white;
+  margin: 1em 1em 1em 0;
+  height: 2.5em;
+  background-color: #023047;
+  border: none;
+  border-radius: 1em;
+}
+
+::placeholder {
+  font-family: "Nunito", sans-serif;
+  color: #0230476b;
+}
+
+input:focus::placeholder {
+  color: #219ebc;
+}
+
+input:focus {
+  box-shadow: 0px 2px 5px #ffb7035d;
+  /* color: red; */
+}

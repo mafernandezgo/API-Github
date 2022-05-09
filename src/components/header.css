@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: #023047;
+  color: white;
+}
+
+header > ul {
+  list-style: none;
+}
