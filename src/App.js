@@ -11,7 +11,7 @@ function App() {
     idNumber: "",
     dateBirth: "",
     email: "",
-    githubUser: "mafernandezgo",
+    githubUser: "",
   })
   const [displayHeader, setDisplayHeader] = useState(false)
   const [showModal, setShowModal] = useState(false)

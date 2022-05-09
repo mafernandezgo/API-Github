@@ -13,7 +13,7 @@ export default function Form({ handleChange, aspirantData, submitValues }) {
           type="text"
           value={aspirantData.firstName}
         />
-        {/* <br /> */}
+
         <label htmlFor="lastName">Apellidos</label>
         <input
           id="lastName"
@@ -23,7 +23,7 @@ export default function Form({ handleChange, aspirantData, submitValues }) {
           type="text"
           value={aspirantData.lastName}
         />
-        {/* <br /> */}
+
         <label htmlFor="idNumber">Cedula</label>
         <input
           id="idNumber"
@@ -33,7 +33,7 @@ export default function Form({ handleChange, aspirantData, submitValues }) {
           type="text"
           value={aspirantData.idNumber}
         />
-        {/* <br /> */}
+
         <label htmlFor="dateBirth">Fecha de Nacimiento</label>
         <input
           id="dateBirth"
@@ -42,7 +42,7 @@ export default function Form({ handleChange, aspirantData, submitValues }) {
           type="date"
           value={aspirantData.dateBirth}
         />
-        {/* <br /> */}
+
         <label htmlFor="email">Correo Electrónico</label>
         <input
           id="email"
@@ -52,7 +52,7 @@ export default function Form({ handleChange, aspirantData, submitValues }) {
           type="mail"
           value={aspirantData.email}
         />
-        {/* <br /> */}
+
         <label htmlFor="githubUser">Usuario Github</label>
         <input
           id="githubUser"
